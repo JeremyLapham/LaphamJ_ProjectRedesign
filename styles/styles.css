@@ -1,0 +1,46 @@
+.mainGreenBG {
+    background-color: #85CC6D;
+}
+.navbar{
+    background-color: #793D19;
+    position:fixed;
+    top:0;
+    width:100%
+}
+.nav-item {
+    font-size: 50px;
+}
+.navbar a {
+    color: white;
+    margin-left: 50px;
+    margin-right: 85px;
+}
+.HomeHeroImg1 {
+    background-image: url(../Assets/HomeHeroImage.jpg);
+    height: 651px;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.greenBackGround {
+    background-color: #517F35;
+    height:152px;
+}
+.OpenDays {
+    padding-left:2rem;
+    font-size: 40px;
+    color:white;
+}
+.topLocation {
+    font-size: 40px;
+    color:white;
+    margin-left: 260px;
+}
+.infoTxt {
+    padding-left:2rem;
+    font-size:32px;
+}
+.underHeroImg {
+    background-image: url(../Assets/HomeUnderHero.jpg);
+    height:486px;
+    background-size: 100%;
+}
