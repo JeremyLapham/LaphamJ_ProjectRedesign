@@ -46,6 +46,7 @@
     padding-left: 5vw;
     width: 45vw;
     height: 60vh;
+    object-fit:cover;
 }
 
 .GardenImagesRC{
@@ -53,6 +54,7 @@
     padding-left: 17vh;
     width: 50vw;
     height: 60vh;
+    object-fit:cover;
 }
 
 .AC {
