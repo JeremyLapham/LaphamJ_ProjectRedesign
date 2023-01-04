@@ -36,6 +36,25 @@
     background-color: #793D19;
 }
 
+.GardenBG{
+    background-color: #85CC6D;
+    
+}
+
+.GardenImagesLC{
+    padding-top:  5vh;
+    padding-left: 5vw;
+    width: 45vw;
+    height: 60vh;
+}
+
+.GardenImagesRC{
+    padding-top:  5vh;
+    padding-left: 17vh;
+    width: 50vw;
+    height: 60vh;
+}
+
 .AC {
    padding-top: 3rem;
    padding-left: 7rem; 
