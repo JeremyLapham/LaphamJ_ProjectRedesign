@@ -1,0 +1,39 @@
+.hero-image{
+    background-image: url(../Assets/ShopHeroImage.png);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.OAC{
+    background-color: #793D19;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.navbar{
+    background-color: #793D19;
+    position:fixed;
+    top:0;
+    width:100%
+}
+.nav-item {
+    font-size: 50px;
+}
+.navbar a {
+    color: white;
+    margin-left: 50px;
+    margin-right: 85px;
+}
+.AC {
+   padding-top: 3rem;
+   padding-left: 7rem; 
+   background-color: #85CC6D;
+}
+.OP{
+    background-color: #397624;
+}
+.FD{
+    background-color: #517F35;
+}
+.FL{
+    width: 110px;
+}
