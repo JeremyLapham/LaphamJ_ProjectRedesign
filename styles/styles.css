@@ -135,3 +135,37 @@ footer {
     background-color:#517F35;
     height: 515px;
 }
+.footNumber {
+    margin-top:6rem;
+    display: flex;
+    justify-content: end;
+    font-size: 40px;
+    font-family: Habibi;
+    color:white;
+}
+.footAdd {
+    margin-top:2rem;
+    font-size: 40px;
+    font-family: Habibi;
+    color:white;
+    padding-right:7rem;
+}
+.insta {
+    width:64px;
+    height:64px;
+}
+.facebookLogo {
+    width:95px;
+    height:60px;
+}
+.yelp {
+    width:120px;
+    height:60px;
+}
+.follow {
+    color:white;
+    font-family: Habibi;
+}
+.footerCopy {
+    color:white
+}
