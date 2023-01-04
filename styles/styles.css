@@ -13,6 +13,15 @@
     margin-right: 85px;
 }
 
-.HeroImage{
-    
+.HomeHeroImg2 {
+    background-image: url(../Assets/GardenHero2.png);
+    height: 651px;
+    background-size:100%;
+    background-repeat: no-repeat;
 }
+
+.GardenBar{
+    color: #793D19;
+    background-color: #793D19;
+}
+
