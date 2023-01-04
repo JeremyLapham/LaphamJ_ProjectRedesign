@@ -1,4 +1,8 @@
-.mainGreenBG {
+@font-face {
+    src: url(../Fonts/Habibi-Regular.ttf);
+    font-family: Habibi;
+}
+.body {
     background-color: #85CC6D;
 }
 .navbar{
@@ -37,10 +41,97 @@
 }
 .infoTxt {
     padding-left:2rem;
-    font-size:32px;
+    padding-right:2rem;
+    font-family: Habibi;
+    font-size: 34px;
 }
 .underHeroImg {
     background-image: url(../Assets/HomeUnderHero.jpg);
     height:486px;
     background-size: 100%;
+}
+.carousel { 
+    width:600px; 
+    height:600px; 
+}
+.carouselImageSize {
+    height: 600px;
+    width: 200px;
+}
+.homeInfoTwo {
+    background-image: url(../Assets/HomePot.jpg);
+    height:486px;
+    background-size: 100%;
+}
+.eventBackground {
+    background-color: #477B2E;
+    height: 107px;
+}
+.events {
+    color: white;
+    font-size: 69px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-family: Habibi;
+}
+.brownEventBackground {
+    background-color: #793D19;
+    height: 483px;
+}
+.eventInfo {
+    color:white;
+    font-size: 40px;
+    font-family: Habibi;
+}
+.specificPad {
+    padding-bottom:35px;
+}
+.eventInfoSmall {
+    color:white;
+    font-size: 24px;
+    font-family: Habibi;
+}
+.faceText {
+    padding-top:2rem;
+font-family: Habibi;
+text-decoration: underline;
+}
+.facebookBorder {
+    margin-top: 11px;
+    border: 25px solid;
+    border-color:#120084;
+    width:550px;
+    border-radius:30px;
+    margin-bottom: 67px;
+}
+.ContactUsBackGround {
+    background-color: #793D19;
+}
+.contact {
+    color:white;
+    font-size: 40px;
+    font-family: Habibi;
+}
+.contactWhiteBackground {
+    background-color: white;
+    width: 639px;
+    height:504px;
+}
+.contactBorder {
+    border: 3px solid;
+}
+.contactWordsPadding {
+    padding-bottom:31px;
+}
+.btn {
+    width: 127px;
+    height:37px;
+    font-size:24px;
+    border-radius: 0;
+}
+footer {
+    margin-top:84px;
+    background-color:#517F35;
+    height: 515px;
 }

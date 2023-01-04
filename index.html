@@ -1,41 +1,45 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home Page</title>
     <link rel="stylesheet" href="./styles/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  </head>
-  <body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body class="body">
     <!-- DeskTop nav bar start -->
     <div>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link navbarTxtColor" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navbarTxtColor"  href="#">Gardening</a>
-              </li> 
-              <li>
-                <img src="./Assets/InSeasonWhiteText.png" width="122" alt="Navbar logo">
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navbarTxtColor" href="#">Shop</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navbarTxtColor" href="#">About Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link navbarTxtColor" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbarTxtColor" href="#">Gardening</a>
+                        </li>
+                        <li>
+                            <img src="./Assets/InSeasonWhiteText.png" width="122" alt="Navbar logo">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbarTxtColor" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbarTxtColor" href="#">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
     <!-- DeskTop Navbar End -->
 
@@ -48,11 +52,11 @@
         <div class="row">
             <div class="col-4">
                 <h6 class="OpenDays">Mon - Fri: 8AM - 5PM
-                Saturday: 8AM - 4PM
-                Sunday: 9AM - 4PM</h6>
+                    Saturday: 8AM - 4PM
+                    Sunday: 9AM - 4PM</h6>
             </div>
             <div class="col">
-                <h6 class="topLocation">215 E Alpine Avenue  Stockton, California 95204, United States</h6>
+                <h6 class="topLocation">215 E Alpine Avenue Stockton, California 95204, United States</h6>
             </div>
         </div>
     </div>
@@ -62,23 +66,168 @@
     <div class="container-fluid mainGreenBG">
         <div class="row">
             <div class="col">
-                <p class="infoTxt">Our nursery strives to offer some rare and unusual plants alongside your old favorites. Our garden vegetable selection is extensive. We grow nearly all of our vegetable plants from seed on site with organic or non-GMO seeds.
+                <p class="infoTxt habibiFont">Our nursery strives to offer some rare and unusual plants alongside your
+                    old favorites. Our garden vegetable selection is extensive. We grow nearly all of our vegetable
+                    plants from seed on site with organic or non-GMO seeds.
                     Also offering organic potting soils and fertilizers from Gardener and Bloom.
-                    </p>
+                </p>
             </div>
             <div class="col underHeroImg">
 
             </div>
         </div>
     </div>
+    <!-- First home info desktop end -->
 
 
+    <!-- Home carousel start desktop -->
+    <div class="container-fluid d-flex justify-content-center">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active carouselImageSize">
+                    <img src="./Assets/HomeCarouselBuilding.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item carouselImageSize">
+                    <img src="./Assets/HomeCarouselSprout.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item carouselImageSize">
+                    <img src="./Assets/AboutEricJuile.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Home carousel end desktop -->
 
+    <!-- Home info two desktop start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col homeInfoTwo">
+            </div>
+            <div class="col">
+                <p class="infoTxt habibiFont">
+                    We offer local artists a place to display and sell their original works. In addition we have trowels
+                    and gloves with a designer line, organic non-GMO seeds from Botanical Interests , soaps and hand
+                    balms from Old Thyme Botanicals with a line of products for dogs!
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Home info two desktop end -->
 
+    <!-- Event start desktop -->
+    <div>
+        <div class="eventBackground">
+            <h1 class="events">
+                Events
+            </h1>
+        </div>
+        <div class="brownEventBackground text-center">
+            <h4 class="eventInfo specificPad">
+                November 11th - Veterans Day Sale!
+            </h4>
+            <h4 class="eventInfo">
+                November 12th - Winterize Your Garden Bed
+                <h6 class="eventInfoSmall specificPad">
+                    How and when to prune herbs and perennials
+                </h6>
+            </h4>
+            <h4 class="eventInfo">
+                November 19th - Foraging
+                <h6 class="eventInfoSmall specificPad">
+                    For unique nature-inspired holiday and table decor with us!
+                </h6>
+            </h4>
+            <h4 class="eventInfo">
+                November 26th - Small Business Saturday Sale!
+            </h4>
+        </div>
+    </div>
+    <!-- Event End desktop -->
 
+    <!-- FaceBook start desktop -->
+    <div class="d-flex justify-content-center">
+    <div class="text-center">
+        <h1 class="faceText">Our lately activity on Facebook!</h1>
+        <div>
+            <iframe class="facebookBorder" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Finseasonmarketandnursery%2F&tabs=timeline&width=500&height=600&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="500" height="600" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+    </div>
+</div>
+    <!-- Facebook end desktop -->
+
+    <!-- Contact Us start desktop -->
+    <div>
+        <div class="ContactUsBackGround text-center">
+            <h1 class="contact">
+                Contact Us
+            </h1>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="contactWhiteBackground contactBorder">
+                <div class="text-center">
+                    <div class="row">
+                        <h3>First Name</h3>
+                        <h2 class="contactWordsPadding">________________________________</h2>
+                    </div>
+                    <div class="row">
+                        <h3>E-mail</h3>
+                        <h2 class="contactWordsPadding">________________________________</h2>
+                    </div>
+                    <div class="row">
+                        <h3>Phone Number</h3>
+                        <h2 class="contactWordsPadding">________________________________</h2>
+                    </div>
+                    <div class="row">
+                        <h3>What plants are you looking for?</h3>
+                        <h2>________________________________</h2>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-dark">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Us end desktop -->
+
+    <!-- Footer desktop start -->
+    <footer>
+        <div class="container-fluid d-flex justify-content-center">
+        <div class="row">
+            <div class="col-4">
+                <h1>(209)-949-2499</h1>
+            </div>
+            <div class="col">
+                <img style="width:182; height:172px" src="./Assets/InSeasonWhiteText.png" alt="Footer logo">
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+    </footer>
 
 
     <script src="./Scripts/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
