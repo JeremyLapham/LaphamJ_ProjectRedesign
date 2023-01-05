@@ -25,7 +25,7 @@
 }
 
 .HomeHeroImg2 {
-    background-image: url(../Assets/GardenHero2.png);
+    background-image: url(../Assets/GardenHeroPossible.jpg);
     height: 651px;
     background-size:100%;
     background-repeat: no-repeat;
@@ -44,17 +44,18 @@
 .GardenImagesLC{
     padding-top:  5vh;
     padding-left: 5vw;
-    width: 45vw;
+    width: 50vw;
     height: 60vh;
     object-fit:cover;
 }
 
 .GardenImagesRC{
     padding-top:  5vh;
-    padding-left: 17vh;
+    padding-left: 20vh;
     width: 50vw;
     height: 60vh;
     object-fit:cover;
+
 }
 
 .AC {
@@ -70,4 +71,9 @@
 }
 .FL{
     width: 110px;
+}
+
+.carouselGardenImage{
+    width: 50vw;
+    height: 90vh;
 }
