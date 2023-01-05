@@ -1,0 +1,14 @@
+.navbar{
+    background-color: #793D19;
+    position:fixed;
+    top:0;
+    width:100%
+}
+.navbar a{
+    color:white;
+}
+.navBarWords {
+    margin-left: 50px;
+    margin-right: 85px;
+    font-size: 50px;
+}
