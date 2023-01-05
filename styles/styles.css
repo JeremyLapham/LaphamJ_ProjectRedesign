@@ -12,3 +12,32 @@
     margin-right: 85px;
     font-size: 50px;
 }
+.hero-image{
+    background-image: url(../Assets/ShopHeroImage.png);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.OAC{
+    background-color: #793D19;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.AC {
+    padding-top: 2rem;
+    padding-left: 7rem; 
+    background-color: #85CC6D;
+ }
+ .FD{
+     background-color: #517F35;
+ }
+ .FL{
+     width: 110px;
+ }
+ .AI{
+     background-color: #85CC6D;
+     padding-top: 2rem; 
+ }
+ .OA{
+     padding-top: 2rem;
+ }
