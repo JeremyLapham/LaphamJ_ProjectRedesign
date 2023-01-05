@@ -2,6 +2,9 @@
     src: url(../Fonts/Habibi-Regular.ttf);
     font-family: Habibi;
 }
+.Habibi {
+    font-family: Habibi;
+}
 .body {
     background-color: #85CC6D;
 }
@@ -11,19 +14,31 @@
     top:0;
     width:100%
 }
-.nav-item {
-    font-size: 50px;
+.navbar a{
+    color:white;
 }
-.navbar a {
-    color: white;
+.navBarWords {
     margin-left: 50px;
     margin-right: 85px;
+    font-size: 50px;
 }
 .HomeHeroImg1 {
     background-image: url(../Assets/HomeHeroImage.jpg);
     height: 651px;
     background-size:100%;
     background-repeat: no-repeat;
+}
+.inSeasonGreenBackground {
+    margin-top:7rem;
+    background-color: #85CC6D;
+    height: 173px;
+    width:548px;
+    background-image: url(../Assets/My\ project\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.topText {
+    margin-top: 8.5rem;
 }
 .greenBackGround {
     background-color: #517F35;
@@ -118,6 +133,18 @@ text-decoration: underline;
     width: 639px;
     height:504px;
 }
+input[type=text], select, textarea {
+    margin-left: 160px;
+    width: 50%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing:border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
 .contactBorder {
     border: 3px solid;
 }
@@ -168,4 +195,8 @@ footer {
 }
 .footerCopy {
     color:white
+}
+
+.tabWordNav {
+    font-size: 25px;
 }

@@ -12,7 +12,7 @@
 
 <body class="body">
     <!-- DeskTop nav bar start -->
-    <div>
+    <div class="d-none d-lg-block d-xl-block">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -21,19 +21,19 @@
                 </button>
                 <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
+                        <li class="nav-item Habibi navBarWords">
                             <a class="nav-link navbarTxtColor" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item Habibi navBarWords">
                             <a class="nav-link navbarTxtColor" href="#">Gardening</a>
                         </li>
                         <li>
                             <img src="./Assets/InSeasonWhiteText.png" width="122" alt="Navbar logo">
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item Habibi navBarWords">
                             <a class="nav-link navbarTxtColor" href="#">Shop</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item Habibi navBarWords">
                             <a class="nav-link navbarTxtColor" href="#">About Us</a>
                         </li>
                     </ul>
@@ -43,20 +43,58 @@
     </div>
     <!-- DeskTop Navbar End -->
 
+    <!-- Tablet navbar start -->
+    <div class="d-none d-md-block d-lg-none">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <p class="navbar-brand tabLogo" href="#">
+                <img src="./Assets/InSeasonWhiteText.png" width="60" alt="Tablet inseason">
+            </p>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navbar">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gardening</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">About Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
     <!-- First HeroImg desktop -->
-    <div class="HomeHeroImg1"></div>
+    <div class="HomeHeroImg1">
+        <div class="d-flex justify-content-center">
+        <div class="inSeasonGreenBackground">
+            <h4 class="d-flex justify-content-center topText">
+                Local natural organic products & produce
+            </h4>
+        </div>
+    </div>
+    </div>
     <!-- HeroImg deaktop end -->
 
     <!-- Open and loction start desktop -->
     <div class="container-fluid greenBackGround">
         <div class="row">
             <div class="col-4">
-                <h6 class="OpenDays">Mon - Fri: 8AM - 5PM
+                <h6 class="OpenDays Habibi">Mon - Fri: 8AM - 5PM
                     Saturday: 8AM - 4PM
                     Sunday: 9AM - 4PM</h6>
             </div>
             <div class="col">
-                <h6 class="topLocation">215 E Alpine Avenue Stockton, California 95204, United States</h6>
+                <h6 class="topLocation Habibi">215 E Alpine Avenue Stockton, California 95204, United States</h6>
             </div>
         </div>
     </div>
@@ -165,7 +203,7 @@
     <!-- FaceBook start desktop -->
     <div class="d-flex justify-content-center">
     <div class="text-center">
-        <h1 class="faceText">Our lately activity on Facebook!</h1>
+        <h1 class="faceText">Our latest activity on Facebook!</h1>
         <div>
             <iframe class="facebookBorder" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Finseasonmarketandnursery%2F&tabs=timeline&width=500&height=600&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="500" height="600" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
@@ -185,19 +223,19 @@
                 <div class="text-center">
                     <div class="row">
                         <h3>First Name</h3>
-                        <h2 class="contactWordsPadding">________________________________</h2>
+                        <input class="contactUsBar" type="text" id="fname" name="firstname" placeholder="Name">
                     </div>
                     <div class="row">
                         <h3>E-mail</h3>
-                        <h2 class="contactWordsPadding">________________________________</h2>
+                        <input class="contactUsBar" type="text" id="fname" name="firstname" placeholder="E-Mail">
                     </div>
                     <div class="row">
                         <h3>Phone Number</h3>
-                        <h2 class="contactWordsPadding">________________________________</h2>
+                        <input class="contactUsBar" type="text" id="fname" name="firstname" placeholder="Phone #">
                     </div>
                     <div class="row">
                         <h3>What plants are you looking for?</h3>
-                        <h2>________________________________</h2>
+                        <input class="contactUsBar" type="text" id="fname" name="firstname" placeholder="Plants?">
                     </div>
                     <div>
                         <button type="button" class="btn btn-dark">Send</button>
