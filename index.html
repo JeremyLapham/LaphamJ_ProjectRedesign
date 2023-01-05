@@ -13,7 +13,7 @@
 <body class="body">
     <!-- DeskTop nav bar start -->
     <div class="d-none d-lg-block d-xl-block">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,49 +44,107 @@
     <!-- DeskTop Navbar End -->
 
     <!-- Tablet navbar start -->
-    <div class="d-none d-md-block d-lg-none">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <p class="navbar-brand tabLogo" href="#">
-                <img src="./Assets/InSeasonWhiteText.png" width="60" alt="Tablet inseason">
-            </p>
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav navbar">
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Gardening</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Shop</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">About Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <div class="d-none d-sm-block d-lg-none">
+        <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <p class="navbar-brand tabLogo" href="#">
+                    <img src="./Assets/InSeasonWhiteText.png" width="60" alt="Tablet inseason">
+                </p>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav navbar tabWordNav">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gardening</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
+    <!-- Navbar end tablet  -->
+
+
+
+    <!-- Navbar mobile start -->
+    <div class="d-block d-sm-none">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <p class="navbar-brand mobLogo" href="#">
+                    <img src="./Assets/InSeasonWhiteText.png" width="60" alt="Tablet inseason">
+                </p>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav navbar tabWordNav">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gardening</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar mobile end -->
 
     <!-- First HeroImg desktop -->
-    <div class="HomeHeroImg1">
+    <div class="HomeHeroImg1 d-none d-lg-block d-xl-block">
         <div class="d-flex justify-content-center">
-        <div class="inSeasonGreenBackground">
-            <h4 class="d-flex justify-content-center topText">
-                Local natural organic products & produce
-            </h4>
+            <div class="inSeasonGreenBackground">
+                <h4 class="d-flex justify-content-center topText">
+                    Local natural organic products & produce
+                </h4>
+            </div>
         </div>
-    </div>
     </div>
     <!-- HeroImg deaktop end -->
 
+    <!-- Hero tab -->
+    <div class="HomeHeroImg1Tab d-none d-md-block d-lg-none">
+        <div class="d-flex justify-content-center">
+            <div class="inSeasonGreenBackground">
+                <h4 class="d-flex justify-content-center topText">
+                    Local natural organic products & produce
+                </h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero mobile -->
+    <div class="HomeHeroImg1Mob d-block d-sm-none">
+        <div class="d-flex justify-content-center">
+            <div class="inSeasonGreenBackgroundMob">
+                <h4 class="d-flex justify-content-center topTextMob">
+                    Local natural organic products & produce
+                </h4>
+            </div>
+        </div>
+    </div>
+
     <!-- Open and loction start desktop -->
-    <div class="container-fluid greenBackGround">
+    <div class="container-fluid greenBackGround d-none d-lg-block d-xl-block">
         <div class="row">
             <div class="col-4">
                 <h6 class="OpenDays Habibi">Mon - Fri: 8AM - 5PM
@@ -100,8 +158,24 @@
     </div>
     <!-- Open and loction desktop end -->
 
+    <!-- Open tab start -->
+    <div class="greenBackGround d-none d-md-block d-lg-none">
+        <h6 class="OpenDaysTab Habibi">Mon - Fri: 8AM - 5PM
+            Saturday: 8AM - 4PM
+            Sunday: 9AM - 4PM</h6>
+    </div>
+
+
+    <!-- Open mob start -->
+    <div class="greenBackGroundMob d-block d-sm-none">
+        <h6 class="OpenDaysMob Habibi">Mon - Fri: 8AM - 5PM
+            Saturday: 8AM - 4PM
+            Sunday: 9AM - 4PM</h6>
+    </div>
+
+
     <!-- First home info desktop start -->
-    <div class="container-fluid mainGreenBG">
+    <div class="container-fluid mainGreenBG d-none d-lg-block d-xl-block">
         <div class="row">
             <div class="col">
                 <p class="infoTxt habibiFont">Our nursery strives to offer some rare and unusual plants alongside your
@@ -117,45 +191,152 @@
     </div>
     <!-- First home info desktop end -->
 
+    <!-- First home info Tablet start -->
+    <div class="d-none d-md-block d-lg-none">
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-12">
+                    <div class="underheroImgTablet">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <p class="infoTxtTab habibiFont">Our nursery strives to offer some rare and unusual plants alongside
+                        your
+                        old favorites. Our garden vegetable selection is extensive. We grow nearly all of our vegetable
+                        plants from seed on site with organic or non-GMO seeds.
+                        Also offering organic potting soils and fertilizers from Gardener and Bloom.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- First home info end tablet  -->
+
+<!-- Mobile info start -->
+<div class="d-block d-sm-none">
+    <div class="container d-flex justify-content-center">
+        <div class="row">
+            <div class="col-12">
+                <div class="underheroImgMob">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div>
+                <p class="infoTxtMob habibiFont">Our nursery strives to offer some rare and unusual plants alongside
+                    your
+                    old favorites. Our garden vegetable selection is extensive. We grow nearly all of our vegetable
+                    plants from seed on site with organic or non-GMO seeds.
+                    Also offering organic potting soils and fertilizers from Gardener and Bloom.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Second info start tablet  -->
+    <div class="d-none d-md-block d-lg-none">
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-12">
+                    <div class="homeInfoTwoTablet">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <p class="infoTxtTab habibiFont">We offer local artists a place to display and sell their original
+                        works. In addition we have trowels
+                        and gloves with a designer line, organic non-GMO seeds from Botanical Interests , soaps and hand
+                        balms from Old Thyme Botanicals with a line of products for dogs!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Second info start Mobile  -->
+    <div class="d-block d-sm-none">
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-12">
+                    <div class="homeInfoTwoMob">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <p class="infoTxtMob habibiFont">We offer local artists a place to display and sell their original
+                        works. In addition we have trowels
+                        and gloves with a designer line, organic non-GMO seeds from Botanical Interests , soaps and hand
+                        balms from Old Thyme Botanicals with a line of products for dogs!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- Home carousel start desktop -->
-    <div class="container-fluid d-flex justify-content-center">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+    <div class="d-none d-lg-block d-xl-block">
+        <div class="container-fluid d-flex justify-content-center">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active carouselImageSize">
+                        <img src="./Assets/HomeCarouselBuilding.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item carouselImageSize">
+                        <img src="./Assets/HomeCarouselSprout.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item carouselImageSize">
+                        <img src="./Assets/AboutEricJuile.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active carouselImageSize">
-                    <img src="./Assets/HomeCarouselBuilding.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item carouselImageSize">
-                    <img src="./Assets/HomeCarouselSprout.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item carouselImageSize">
-                    <img src="./Assets/AboutEricJuile.jpg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
     </div>
     <!-- Home carousel end desktop -->
 
     <!-- Home info two desktop start -->
-    <div class="container-fluid">
+    <div class="container-fluid d-none d-lg-block d-xl-block">
         <div class="row">
             <div class="col homeInfoTwo">
             </div>
@@ -171,8 +352,8 @@
     <!-- Home info two desktop end -->
 
     <!-- Event start desktop -->
-    <div>
-        <div class="eventBackground">
+    <div class="d-none d-lg-block d-xl-block">
+        <div class="eventBackground ">
             <h1 class="events">
                 Events
             </h1>
@@ -201,18 +382,37 @@
     <!-- Event End desktop -->
 
     <!-- FaceBook start desktop -->
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center d-none d-md-block d-xl-block">
+        <div class="text-center">
+            <h1 class="faceText">Our latest activity on Facebook!</h1>
+            <div>
+                <iframe class="facebookBorder"
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Finseasonmarketandnursery%2F&tabs=timeline&width=500&height=600&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"
+                    width="500" height="600" scrolling="no" frameborder="0" allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Facebook end desktop -->
+
+    <!-- Facebook mobile -->
+    <div class="d-flex justify-content-center d-block d-sm-none">
     <div class="text-center">
         <h1 class="faceText">Our latest activity on Facebook!</h1>
         <div>
-            <iframe class="facebookBorder" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Finseasonmarketandnursery%2F&tabs=timeline&width=500&height=600&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="500" height="600" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            <iframe class="facebookBorderMob"
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Finseasonmarketandnursery%2F&tabs=timeline&width=325&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="325" height="500" scrolling="no" frameborder="0" allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
     </div>
 </div>
-    <!-- Facebook end desktop -->
+
+
+
 
     <!-- Contact Us start desktop -->
-    <div>
+    <div class="d-none d-lg-block d-xl-block">
         <div class="ContactUsBackGround text-center">
             <h1 class="contact">
                 Contact Us
@@ -247,48 +447,145 @@
     <!-- Contact Us end desktop -->
 
     <!-- Footer desktop start -->
-    <footer>
+    <footer class="d-none d-lg-block d-xl-block">
         <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <h1 class="footNumber">(209)-949-2499</h1>
+            <div class="row">
+                <div class="col">
+                    <h1 class="footNumber">(209)-949-2499</h1>
+                </div>
+                <div class="col-2">
+                    <img style="width:182; height:172px" src="./Assets/InSeasonWhiteText.png" alt="Footer logo">
+                </div>
+                <div class="col">
+                    <h1 class="footAdd">
+                        215 E Alpine Avenue Stockton California 95204, United States
+                    </h1>
+                </div>
             </div>
-            <div class="col-2">
-                <img style="width:182; height:172px" src="./Assets/InSeasonWhiteText.png" alt="Footer logo">
+            <div class="row text-center">
+                <h1 class="follow">Follow Us</h1>
             </div>
-            <div class="col">
-                <h1 class="footAdd">
-                    215 E Alpine Avenue Stockton California 95204, United States
-                </h1>
+            <div class="row d-flex justify-content-center">
+                <div class="col-1">
+                    <a href="https://www.instagram.com/inseason.store/" target="_blank"><img class="insta"
+                            src="./Assets/instalogo.png" alt="Instagram logo"></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://www.facebook.com/inseasonmarketandnursery/" target="_blank"><img
+                            class="facebookLogo" src="./Assets/Facebook-logo.png" alt="facebook logo"></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://www.yelp.com/biz/in-season-market-and-nursery-stockton" target="_blank"><img
+                            class="yelp" src="./Assets/Yelp-Logo.png" alt="yelp logo"></a>
+                </div>
+            </div>
+            <br><br>
+            <div class="text-center">
+                <div class="row">
+                    <h3 class="footerCopy">In Season Market & Nursery</h3>
+                </div>
+                <br><br>
+                <div class="row">
+                    <h6 class="footerCopy">Copyright © 2022 In Season Market & Nursery - All Rights Reserved.</h6>
+                </div>
             </div>
         </div>
-        <div class="row text-center">
-            <h1 class="follow">Follow Us</h1>
-        </div>
-        <div class="row d-flex justify-content-center">
-            <div class="col-1">
-                <a href="https://www.instagram.com/inseason.store/" target="_blank"><img class="insta" src="./Assets/instalogo.png" alt="Instagram logo"></a>
-            </div>
-            <div class="col-1">
-                <a href="https://www.facebook.com/inseasonmarketandnursery/" target="_blank"><img class="facebookLogo" src="./Assets/Facebook-logo.png" alt="facebook logo"></a>
-            </div>
-            <div class="col-1">
-                <a href="https://www.yelp.com/biz/in-season-market-and-nursery-stockton" target="_blank"><img class="yelp" src="./Assets/Yelp-Logo.png" alt="yelp logo"></a>
-            </div>
-        </div>
-        <br><br>
-        <div class="text-center">
-        <div class="row">
-            <h3 class="footerCopy">In Season Market & Nursery</h3>
-        </div>
-        <br><br>
-        <div class="row">
-            <h6 class="footerCopy">Copyright © 2022 In Season Market & Nursery - All Rights Reserved.</h6>
-        </div>
-    </div>
-    </div>
     </footer>
+    <!-- Footer desk end -->
 
+ <!-- Footer Tablet start -->
+    <footer class="footerTab d-none d-md-block d-lg-none">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h1 class="footNumberTab">(209)-949-2499</h1>
+                </div>
+                <div class="col-2">
+                    <img style="width:56; height:100px" src="./Assets/InSeasonWhiteText.png" alt="Footer logo">
+                </div>
+                <div class="col">
+                    <h1 class="footAddTab">
+                        215 E Alpine Avenue Stockton California 95204, United States
+                    </h1>
+                </div>
+            </div>
+            <div class="row text-center">
+                <h1 class="follow">Follow Us</h1>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-1">
+                    <a href="https://www.instagram.com/inseason.store/" target="_blank"><img class="instaTab"
+                            src="./Assets/instalogo.png" alt="Instagram logo"></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://www.facebook.com/inseasonmarketandnursery/" target="_blank"><img
+                            class="facebookLogoTab" src="./Assets/Facebook-logo.png" alt="facebook logo"></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://www.yelp.com/biz/in-season-market-and-nursery-stockton" target="_blank"><img
+                            class="yelpTab" src="./Assets/Yelp-Logo.png" alt="yelp logo"></a>
+                </div>
+            </div>
+            <br><br>
+            <div class="text-center">
+                <div class="row">
+                    <h3 class="footerCopy">In Season Market & Nursery</h3>
+                </div>
+                <br><br>
+                <div class="row">
+                    <h6 class="footerCopy">Copyright © 2022 In Season Market & Nursery - All Rights Reserved.</h6>
+                </div>
+            </div>
+        </div>
+    </footer>  
+    
+    
+
+     <!-- Footer Mobile start -->
+     <footer class="footerMob d-block d-sm-none">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <h1 class="footNumberMob">(209)-949-2499</h1>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <img style="width:60; height:60px" src="./Assets/InSeasonWhiteText.png" alt="Footer logo">
+                </div>
+                <div class="col-4">
+                    <h1 class="footAddMob">
+                        215 E Alpine Avenue Stockton California 95204, United States
+                    </h1>
+                </div>
+            </div>
+            <div class="row text-center">
+                <h1 class="followMob">Follow Us</h1>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-1 margin">
+                    <a href="https://www.instagram.com/inseason.store/" target="_blank"><img class="instaMob"
+                            src="./Assets/instalogo.png" alt="Instagram logo"></a>
+                </div>
+                <div class="col-1 margin">
+                    <a href="https://www.facebook.com/inseasonmarketandnursery/" target="_blank"><img
+                            class="facebookLogoMob" src="./Assets/Facebook-logo.png" alt="facebook logo"></a>
+                </div>
+                <div class="col-1 margin">
+                    <a href="https://www.yelp.com/biz/in-season-market-and-nursery-stockton" target="_blank"><img
+                            class="yelpMob" src="./Assets/Yelp-Logo.png" alt="yelp logo"></a>
+                </div>
+            </div>
+            <br><br>
+            <div class="text-center">
+                <div class="row">
+                    <h3 class="footerCopyMob1">In Season Market & Nursery</h3>
+                </div>
+                <br><br>
+                <div class="row">
+                    <h6 class="footerCopyMob">Copyright © 2022 In Season Market & Nursery - All Rights Reserved.</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="./Scripts/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
