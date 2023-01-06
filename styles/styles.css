@@ -22,6 +22,15 @@
     color: white;
 }
 
+.navbar{
+    background-color: #793D19;
+    position:fixed;
+    top:0;
+    width:100%
+}
+.navbar a{
+    color:white;
+}
 .navBarWords {
     margin-left: 50px;
     margin-right: 85px;
@@ -801,4 +810,63 @@ footer {
     background-size:100%;
     border-radius: 20px;
     background-repeat: no-repeat;
+.AC {
+    padding-top: 2rem;
+    padding-left: 7rem; 
+    background-color: #85CC6D;
+ }
+ .FD{
+     background-color: #517F35;
+ }
+ .FL{
+     width: 110px;
+ }
+ .AI{
+     background-color: #85CC6D;
+     padding-top: 2rem; 
+ }
+ .OA{
+     padding-top: 2rem;
+ }
+.BO{
+    background-color:#517F35;
+    height: 515px;
+}
+.footNumber {
+    margin-top:6rem;
+    display: flex;
+    justify-content: end;
+    font-size: 40px;
+    font-family: Habibi;
+    color:white;
+}
+.footAdd {
+    margin-top:2rem;
+    font-size: 40px;
+    font-family: Habibi;
+    color:white;
+    padding-right:7rem;
+}
+.insta {
+    width:64px;
+    height:64px;
+}
+.facebookLogo {
+    width:95px;
+    height:60px;
+}
+.yelp {
+    width:120px;
+    height:60px;
+}
+.follow {
+    color:white;
+    font-family: Habibi;
+}
+.footerCopy {
+    color:white
+}
+
+.tabWordNav {
+    font-size: 25px;
 }
