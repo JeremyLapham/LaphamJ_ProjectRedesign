@@ -75,6 +75,13 @@
     background-repeat: no-repeat;
     background-position: center top;
 }
+.hero-Mo{
+    margin-top: 90px;
+    background-image: url(../Assets/ShopHeroImage.png);
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 .mobLogo {
     margin-right: 5rem;
