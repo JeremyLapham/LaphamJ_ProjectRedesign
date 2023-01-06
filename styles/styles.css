@@ -40,6 +40,8 @@
  }
  .OA{
      padding-top: 2rem;
+     display: flex;
+     justify-content: center;
  }
 .BO{
     background-color:#517F35;
