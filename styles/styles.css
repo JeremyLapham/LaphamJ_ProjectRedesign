@@ -37,15 +37,6 @@
     background-repeat: no-repeat;
     margin-bottom:19px;
 }
-.inSeasonGreenBackground {
-    margin-top:5rem;
-    background-color: #85CC6D;
-    height: 173px;
-    width:548px;
-    background-image: url(../Assets/My\ project\ 1.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-}
 .HomeHeroImg1Mob {
     margin-top:90px;
     background-image: url(../Assets/HomeHeroImage.jpg);
@@ -54,6 +45,15 @@
     background-size:100%;
     background-repeat: no-repeat;
     margin-bottom:19px;
+}
+.inSeasonGreenBackground {
+    margin-top:5rem;
+    background-color: #85CC6D;
+    height: 173px;
+    width:548px;
+    background-image: url(../Assets/My\ project\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center top;
 }
 .mobLogo {
     margin-right: 5rem;
@@ -406,4 +406,32 @@ footer {
     right: 0;
     left: 0;
     z-index: 1030;
+}
+
+
+
+/* About us start */
+.AboutHeroImg1 {
+    margin-top:114px;
+    background-image: url(../Assets/);
+    height: 651px;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.AboutHeroImg1Tab {
+    margin-top:90px;
+    background-image: url(../Assets/HomeHeroImage.jpg);
+    height: 347px;
+    background-size:100%;
+    background-repeat: no-repeat;
+    margin-bottom:19px;
+}
+.AboutHeroImg1Mob {
+    margin-top:90px;
+    background-image: url(../Assets/HomeHeroImage.jpg);
+    height: 200px;
+    width:100%;
+    background-size:100%;
+    background-repeat: no-repeat;
+    margin-bottom:19px;
 }
