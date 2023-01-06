@@ -85,3 +85,18 @@
 .tabWordNav {
     font-size: 25px;
 }
+.footNumberMob {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+    font-family: Habibi;
+    color: white;
+}
+.footAddTab {
+    margin-top: 2rem;
+    font-size: 20px;
+    font-family: Habibi;
+    color: white;
+    padding-right: 6rem;
+}
