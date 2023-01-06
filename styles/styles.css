@@ -125,7 +125,7 @@
     margin-left: 25px;
     margin-right: 45px;
     padding-left: 2rem;
-    font-size: 25px;
+    font-size: 23px;
     color: white;
     margin-bottom: 2rem;
 }
@@ -477,6 +477,11 @@ footer {
     font-family: Habibi;
 }
 
+.HabibiMedium{
+    font-size: 20px;
+    font-family: Habibi;
+}
+
 .navbar-toggler-icon {
     color: whitesmoke;
 }
@@ -563,6 +568,10 @@ footer {
     font-size: 15px;
 }
 
+.mobFontSizeSm {
+    padding-left: 6px;
+    font-size: 15px;
+}
 .aboutPicture {
     background-image: url(../Assets/NoHand.png);
     height: 600px;
