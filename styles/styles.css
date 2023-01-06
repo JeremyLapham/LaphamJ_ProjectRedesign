@@ -13,7 +13,7 @@
     background-color: #793D19;
     position:fixed;
     top:0;
-    width:100%
+    width:100vw;
 }
 .nav-item {
     font-size: 50px;
@@ -51,8 +51,8 @@
 
 .GardenImagesRC{
     padding-top:  5vh;
-    padding-left: 20vh;
-    width: 50vw;
+    padding-left: 10vw;
+    width: 52.5vw;
     height: 60vh;
     object-fit:cover;
 
