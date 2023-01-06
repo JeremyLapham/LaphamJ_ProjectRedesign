@@ -2,195 +2,228 @@
     src: url(../Fonts/Habibi-Regular.ttf);
     font-family: Habibi;
 }
+
 .Habibi {
     font-family: Habibi;
 }
+
 .body {
     background-color: #85CC6D;
 }
-.navbar{
+
+.navbar {
     background-color: #793D19;
-    position:fixed;
-    top:0;
-    width:100%
+    position: fixed;
+    top: 0;
+    width: 100%
 }
-.navbar a{
-    color:white;
+
+.navbar a {
+    color: white;
 }
+
 .navBarWords {
     margin-left: 50px;
     margin-right: 85px;
     font-size: 50px;
 }
+
 .HomeHeroImg1 {
-    margin-top:114px;
+    margin-top: 114px;
     background-image: url(../Assets/HomeHeroImage.jpg);
     height: 651px;
-    background-size:100%;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
+
 .HomeHeroImg1Tab {
-    margin-top:90px;
+    margin-top: 90px;
     background-image: url(../Assets/HomeHeroImage.jpg);
     height: 347px;
-    background-size:100%;
+    background-size: 100%;
     background-repeat: no-repeat;
-    margin-bottom:19px;
+    margin-bottom: 19px;
 }
+
 .HomeHeroImg1Mob {
-    margin-top:90px;
+    margin-top: 90px;
     background-image: url(../Assets/HomeHeroImage.jpg);
     height: 200px;
-    width:100%;
-    background-size:100%;
+    width: 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
-    margin-bottom:19px;
+    margin-bottom: 19px;
 }
+
 .inSeasonGreenBackground {
-    margin-top:5rem;
+    margin-top: 5rem;
     background-color: #85CC6D;
     height: 173px;
-    width:548px;
+    width: 548px;
     background-image: url(../Assets/My\ project\ 1.png);
     background-repeat: no-repeat;
     background-position: center top;
 }
+
+.inSeasonGreenBackgroundMob {
+    margin-top: 3rem;
+    background-color: #85CC6D;
+    height: 100px;
+    width: 300px;
+    background-size: 100%;
+    background-image: url(../Assets/My\ project\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
 .mobLogo {
     margin-right: 5rem;
 }
-.inSeasonGreenBackgroundMob {
-    margin-top:3rem;
-    background-color: #85CC6D;
-    height: 100px;
-    width:300px;
-    background-size: 100%;
-    background-image: url(../Assets/My\ project\ 1.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-}
+
 .topText {
     margin-top: 8.5rem;
 }
+
 .topTextMob {
     margin-top: 5rem;
-    font-size:15px;
+    font-size: 15px;
 }
+
 .greenBackGround {
     background-color: #517F35;
-    height:152px;
+    height: 152px;
 }
+
 .greenBackGroundMob {
     background-color: #517F35;
-    height:120px;
+    height: 120px;
 }
+
 .OpenDays {
-    padding-left:2rem;
+    padding-left: 2rem;
     font-size: 40px;
-    color:white;
+    color: white;
 }
+
 .OpenDaysTab {
-    margin-left:81px;
+    margin-left: 81px;
     margin-right: 100px;
-    padding-left:2rem;
+    padding-left: 2rem;
     font-size: 40px;
-    color:white;
-    margin-bottom:2rem;
+    color: white;
+    margin-bottom: 2rem;
 }
+
 .OpenDaysMob {
-    margin-left:25px;
+    margin-left: 25px;
     margin-right: 45px;
-    padding-left:2rem;
+    padding-left: 2rem;
     font-size: 25px;
-    color:white;
-    margin-bottom:2rem;
+    color: white;
+    margin-bottom: 2rem;
 }
+
 .topLocation {
     font-size: 40px;
-    color:white;
+    color: white;
     margin-left: 260px;
 }
+
 .infoTxt {
-    padding-left:2rem;
-    padding-right:2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     font-family: Habibi;
     font-size: 34px;
 }
+
 .infoTxtTab {
-    margin-top:2rem;
-    padding-left:5rem;
-    padding-right:5rem;
+    margin-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     font-family: Habibi;
     font-size: 20px;
 }
+
 .infoTxtMob {
-    margin-top:2rem;
-    padding-left:1rem;
-    padding-right:1rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-family: Habibi;
     font-size: 17px;
 }
+
 .underHeroImg {
     background-image: url(../Assets/HomeUnderHero.jpg);
-    height:486px;
+    height: 486px;
     background-size: 100%;
 }
+
 .underheroImgTablet {
-    margin-top:2rem;
+    margin-top: 2rem;
     background-image: url(../Assets/HomeUnderHero.jpg);
     height: 500px;
-    width:500px;
+    width: 500px;
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
+
 .underheroImgMob {
-    margin-top:2rem;
+    margin-top: 2rem;
     background-image: url(../Assets/HomeUnderHero.jpg);
     height: 320px;
-    width:320px;
+    width: 320px;
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
-.carousel { 
-    width:600px; 
-    height:600px; 
+
+.carousel {
+    width: 600px;
+    height: 600px;
 }
+
 .carouselImageSize {
     height: 600px;
     width: 200px;
 }
-.carouselHome{
+
+.carouselHome {
     display: flex;
     justify-content: center;
 }
+
 .homeInfoTwo {
     background-image: url(../Assets/HomePot.jpg);
-    height:486px;
+    height: 486px;
     background-size: 100%;
 }
-.homeInfoTwoTablet{
-    margin-top:2rem;
+
+.homeInfoTwoTablet {
+    margin-top: 2rem;
     background-image: url(../Assets/HomePot.jpg);
     height: 500px;
-    width:500px;
+    width: 500px;
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
+
 .homeInfoTwoMob {
-    margin-top:2rem;
+    margin-top: 2rem;
     background-image: url(../Assets/HomePot.jpg);
     height: 320px;
-    width:320px;
+    width: 320px;
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
+
 .eventBackground {
     background-color: #477B2E;
     height: 107px;
 }
+
 .events {
     color: white;
     font-size: 69px;
@@ -199,207 +232,248 @@
     text-decoration: underline;
     font-family: Habibi;
 }
+
 .brownEventBackground {
     background-color: #793D19;
     height: 483px;
 }
+
 .eventInfo {
-    color:white;
+    color: white;
     font-size: 40px;
     font-family: Habibi;
 }
+
 .specificPad {
-    padding-bottom:35px;
+    padding-bottom: 35px;
 }
+
 .eventInfoSmall {
-    color:white;
+    color: white;
     font-size: 24px;
     font-family: Habibi;
 }
+
 .faceText {
-    padding-top:2rem;
-font-family: Habibi;
-text-decoration: underline;
+    padding-top: 2rem;
+    font-family: Habibi;
+    text-decoration: underline;
 }
+
 .facebookBorder {
     margin-top: 11px;
     border: 25px solid;
-    border-color:#120084;
-    width:550px;
-    border-radius:30px;
+    border-color: #120084;
+    width: 550px;
+    border-radius: 30px;
     margin-bottom: 67px;
 }
+
 .facebookBorderMob {
     margin-top: 11px;
     border: 15px solid;
-    border-color:#120084;
+    border-color: #120084;
     width: 350px;
-    border-radius:30px;
+    border-radius: 30px;
     margin-bottom: 38px;
 }
+
 .ContactUsBackGround {
     background-color: #793D19;
 }
+
 .contact {
-    color:white;
+    color: white;
     font-size: 40px;
     font-family: Habibi;
 }
+
 .contactWhiteBackground {
     background-color: white;
     width: 639px;
-    height:504px;
+    height: 504px;
 }
-input[type=text], select, textarea {
+
+input[type=text],
+select,
+textarea {
     margin-left: 160px;
-    width: 50%; 
+    width: 50%;
     padding: 12px;
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing:border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
     resize: vertical;
-  }
-  
+}
+
 .contactBorder {
     border: 3px solid;
 }
+
 .contactWordsPadding {
-    padding-bottom:31px;
+    padding-bottom: 31px;
 }
+
 .btn {
     width: 127px;
-    height:37px;
-    font-size:24px;
+    height: 37px;
+    font-size: 24px;
     border-radius: 0;
 }
+
 footer {
-    margin-top:84px;
-    background-color:#517F35;
+    margin-top: 84px;
+    background-color: #517F35;
     height: 515px;
 }
+
 .footerTab {
-    margin-top:84px;
-    background-color:#517F35;
+    margin-top: 84px;
+    background-color: #517F35;
     height: 400px;
 }
+
 .footerMob {
-    margin-top:84px;
-    background-color:#517F35;
+    margin-top: 84px;
+    background-color: #517F35;
     height: 310px;
 }
+
 .footNumber {
-    margin-top:6rem;
+    margin-top: 6rem;
     display: flex;
     justify-content: end;
     font-size: 40px;
     font-family: Habibi;
-    color:white;
+    color: white;
 }
+
 .footNumberTab {
-    margin-top:4rem;
+    margin-top: 4rem;
     display: flex;
     justify-content: end;
     font-size: 20px;
     font-family: Habibi;
-    color:white;
+    color: white;
 }
+
 .footNumberMob {
-    margin-top:3rem;
+    margin-top: 3rem;
     display: flex;
     justify-content: end;
     font-size: 10px;
     font-family: Habibi;
-    color:white;
+    color: white;
 }
+
 .footAdd {
-    margin-top:2rem;
+    margin-top: 2rem;
     font-size: 40px;
     font-family: Habibi;
-    color:white;
-    padding-right:7rem;
+    color: white;
+    padding-right: 7rem;
 }
+
 .footAddTab {
-    margin-top:2rem;
+    margin-top: 2rem;
     font-size: 20px;
     font-family: Habibi;
-    color:white;
-    padding-right:6rem;
+    color: white;
+    padding-right: 6rem;
 }
+
 .footAddMob {
-    margin-top:2rem;
+    margin-top: 2rem;
     font-size: 10px;
     font-family: Habibi;
-    color:white;
+    color: white;
 }
+
 .insta {
-    width:64px;
-    height:64px;
+    width: 64px;
+    height: 64px;
 }
+
 .instaTab {
-    width:40px;
-    height:40px;
+    width: 40px;
+    height: 40px;
 }
+
 .instaMob {
-    width:30px;
-    height:30px;
+    width: 30px;
+    height: 30px;
 }
+
 .facebookLogo {
-    width:95px;
-    height:60px;
+    width: 95px;
+    height: 60px;
 }
+
 .facebookLogoTab {
-    width:75px;
-    height:45px;
+    width: 75px;
+    height: 45px;
 }
+
 .facebookLogoMob {
-    width:60px;
-    height:35px;
+    width: 60px;
+    height: 35px;
 }
+
 .yelp {
-    width:120px;
-    height:60px;
+    width: 120px;
+    height: 60px;
 }
+
 .yelpTab {
-    width:90px;
-    height:45px;
+    width: 90px;
+    height: 45px;
 }
+
 .yelpMob {
-    width:75px;
-    height:35px;
+    width: 75px;
+    height: 35px;
 }
+
 .follow {
-    color:white;
+    color: white;
     font-family: Habibi;
 }
+
 .followMob {
-    color:white;
+    color: white;
     font-family: Habibi;
     font-size: 20px;
 }
+
 .footerCopy {
-    color:white
+    color: white
 }
+
 .margin {
-    margin-right:2rem;
+    margin-right: 2rem;
 }
+
 .footerCopyMob {
-    color:white;
+    color: white;
     font-size: 10px;
 }
+
 .footerCopyMob1 {
-    color:white;
+    color: white;
     font-size: 15px;
 }
 
 .tabWordNav {
     font-size: 25px;
-    font-family:Habibi;
+    font-family: Habibi;
 }
+
 .navbar-toggler-icon {
-    color:whitesmoke;
+    color: whitesmoke;
 }
+
 .fixed-top {
     position: fixed;
     top: 0;
@@ -410,28 +484,242 @@ footer {
 
 
 
+
+
+
 /* About us start */
 .AboutHeroImg1 {
-    margin-top:114px;
-    background-image: url(../Assets/);
+    margin-top: 114px;
+    background-image: url(../Assets/AboutHero.png);
     height: 651px;
-    background-size:100%;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
+
 .AboutHeroImg1Tab {
-    margin-top:90px;
-    background-image: url(../Assets/HomeHeroImage.jpg);
+    margin-top: 90px;
+    background-image: url(../Assets/AboutHero.png);
     height: 347px;
-    background-size:100%;
+    background-size: 100%;
     background-repeat: no-repeat;
-    margin-bottom:19px;
+    margin-bottom: 19px;
 }
+
 .AboutHeroImg1Mob {
-    margin-top:90px;
-    background-image: url(../Assets/HomeHeroImage.jpg);
+    margin-top: 90px;
+    background-image: url(../Assets/AboutHero.png);
     height: 200px;
-    width:100%;
-    background-size:100%;
+    width: 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
-    margin-bottom:19px;
+    margin-bottom: 19px;
+}
+
+.aboutGreenBackground {
+    margin-top: 10rem;
+    background-color: #85CC6D;
+    height: 180px;
+    width: 772px;
+    background-position: center center;
+}
+
+.aboutGreenBackgroundTab {
+    margin-top: 5rem;
+    background-color: #85CC6D;
+    height: 100px;
+    width: 550px;
+    background-size: 100%;
+    background-position: center top;
+}
+
+.aboutGreenBackgroundMob {
+    margin-top: 2.5rem;
+    background-color: #85CC6D;
+    height: 110px;
+    width: 300px;
+    background-size: 100%;
+    background-position: center top;
+}
+
+.deskFontSize {
+    padding-left: 1rem;
+    font-size: 30px;
+}
+
+.tabFontSize {
+    padding-left: 6px;
+    font-size: 20px;
+}
+
+.mobFontSize {
+    padding-left: 6px;
+    font-size: 15px;
+}
+
+.aboutPicture {
+    background-image: url(../Assets/NoHand.png);
+    height: 600px;
+    background-size: 100%;
+    border-radius: 20px;
+}
+
+.aboutEricAndJulie {
+    margin-top: 5rem;
+    font-family: Habibi;
+    line-height: 2rem;
+}
+
+.paddingEric {
+    padding-top: 3rem;
+}
+
+.paddingWords {
+    padding-top: 1.5rem;
+}
+
+.aboutPictureTab {
+    background-image: url(../Assets/NoHand.png);
+    height: 390px;
+    background-size: 100%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+.aboutEricAndJulieTab {
+    margin-top: 5rem;
+    font-family: Habibi;
+}
+
+.paddingEricTab {
+    padding-top: 1rem;
+}
+
+.paddingWordsTab {
+    padding-top: 0.5rem;
+    font-size: 15px;
+}
+
+.aboutPictureMob {
+    background-image: url(../Assets/NoHand.png);
+    height: 390px;
+    background-size: 100%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.aboutEricAndJulieMob {
+    margin-top: 5rem;
+    font-family: Habibi;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.paddingEricMob {
+    padding-top: 1rem;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.paddingWordsMob {
+    padding-top: 0.5rem;
+    font-size: 15px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.aboutInfo {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+    margin-bottom:5rem;
+    font-size: 25px;
+    font-family: Habibi;
+}
+.aboutInfoTab {
+    margin:5rem;
+    font-size: 25px;
+    font-family: Habibi;
+}
+.aboutInfoMob {
+    margin:2rem;
+    font-size: 15px;
+    font-family: Habibi;
+}
+.aboutBeforeLot {
+    background-image: url(../Assets/AboutBeforeCrops.png);
+    height: 350px;
+    background-size:100%;
+    border-radius: 20px
+}
+.aboutBeforeLot2 {
+    background-image: url(../Assets/AboutUsBeforeLot.jpg);
+    height: 350px;
+    background-size:100%;
+    border-radius: 20px
+}
+.aboutAfterLot {
+    background-image: url(../Assets/AboutAfterLot.jpg);
+    height: 350px;
+    background-size:100%;
+    border-radius: 20px
+}
+.aboutAfterLot2 {
+    background-image: url(../Assets/AboutAfterCrops.jpg);
+    height: 350px;
+    background-size:100%;
+    border-radius: 20px
+}
+
+.aboutBeforeLotTab {
+    background-image: url(../Assets/AboutBeforeCrops.png);
+    height: 300px;
+    background-size:100%;
+    border-radius: 20px
+}
+.aboutBeforeLotTab2 {
+    background-image: url(../Assets/AboutUsBeforeLot.jpg);
+    height: 300px;
+    background-size:100%;
+    border-radius: 20px
+}
+.aboutAfterLotTab {
+    background-image: url(../Assets/AboutAfterLot.jpg);
+    height: 300px;
+    background-size:100%;
+    border-radius: 20px
+}
+.aboutAfterLotTab2 {
+    background-image: url(../Assets/AboutAfterCrops.jpg);
+    height: 300px;
+    background-size:100%;
+    border-radius: 20px
+}
+.aboutBeforeLotMob {
+    background-image: url(../Assets/AboutBeforeCrops.png);
+    height: 165px;
+    background-size:100%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+.aboutBeforeLotMob2 {
+    background-image: url(../Assets/AboutUsBeforeLot.jpg);
+    height: 165px;
+    background-size:100%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+.aboutAfterLotMob {
+    background-image: url(../Assets/AboutAfterLot.jpg);
+    height: 165px;
+    background-size:100%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+.aboutAfterLotMob2 {
+    background-image: url(../Assets/AboutAfterCrops.jpg);
+    height: 165px;
+    background-size:100%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
 }
