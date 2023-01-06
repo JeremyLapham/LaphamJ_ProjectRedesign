@@ -11,63 +11,187 @@
 </head>
 
 <body class="body">
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link navbarTxtColor" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navbarTxtColor" href="#">Gardening</a>
-          </li>
-          <li>
-            <img src="/Assets/InSeasonWhiteText.png" width="122" alt="Navbar logo">
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navbarTxtColor" href="#">Shop</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navbarTxtColor" href="#">About Us</a>
-          </li>
-        </ul>
+  <!-- DeskTop nav bar start -->
+  <div class="d-none d-lg-block d-xl-block">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item Habibi navBarWords">
+              <a class="nav-link navbarTxtColor" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item Habibi navBarWords">
+              <a class="nav-link navbarTxtColor" href="../Pages/GardenPage.html">Gardening</a>
+            </li>
+            <li>
+              <img src="/Assets/InSeasonWhiteText.png" width="122" alt="Navbar logo">
+            </li>
+            <li class="nav-item Habibi navBarWords">
+              <a class="nav-link navbarTxtColor" href="../Pages/ShopPage.html">Shop</a>
+            </li>
+            <li class="nav-item Habibi navBarWords">
+              <a class="nav-link navbarTxtColor" href="../Pages/AboutUsPage.html">About Us</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
+  <!-- DeskTop Navbar End -->
 
-  <div class="HomeHeroImg2">
+  <!-- Tablet navbar start -->
+  <div class="d-none d-sm-block d-lg-none">
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <p class="navbar-brand tabLogo" href="#">
+          <img src="../Assets/InSeasonWhiteText.png" width="60" alt="Tablet inseason">
+        </p>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navbar tabWordNav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/GardenPage.html">Gardening</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/ShopPage.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/AboutUsPage.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- Navbar end tablet  -->
+
+
+
+  <!-- Navbar mobile start -->
+  <div class="d-block d-sm-none">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <p class="navbar-brand mobLogo" href="#">
+          <img src="../Assets/InSeasonWhiteText.png" width="60" alt="Tablet inseason">
+        </p>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navbar tabWordNav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/GardenPage.html">Gardening</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/ShopPage.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/AboutUsPage.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- Navbar mobile end -->
+
+
+  <!-- Hero Image Text Box start -->
+  <div class="HomeHeroImg2 d-none d-lg-block d-xl-block">
     <div class="d-flex justify-content-center">
       <div class="aboutGreenBackground">
-          <h4 class="d-flex justify-content-center Habibi deskFontSize">
-            At In Season, we are most proud of all the varieties of plants we have in our nursery. Since 2016 we have worked tirelessly to reach our dream of having a space in Stockton to teach people how to care for flora and utilize the bounty they give us.
-          </h4>
+        <h4 class="d-flex justify-content-center Habibi deskFontSize">
+          At In Season, we are most proud of all the varieties of plants we have in our nursery. Since 2016 we have
+          worked tirelessly to reach our dream of having a space in Stockton to teach people how to care for flora and
+          utilize the bounty they give us.
+        </h4>
       </div>
+    </div>
   </div>
+  <!-- Hero Image Text Box End -->
+
+
+  <!-- hero image tablet  -->
+  <div class="HomeHeroImg2Tab d-none d-md-block d-lg-none">
+    <div class="d-flex justify-content-center">
+      <div class="aboutGreenBackgroundTab">
+        <h4 class="d-flex justify-content-center Habibi tabFontSize">
+          At In Season, we are most proud of all the varieties of plants we have in our nursery. Since 2016 we have
+          worked tirelessly to reach our dream of having a space in Stockton to teach people how to care for flora and
+          utilize the bounty they give us.
+        </h4>
+      </div>
+    </div>
   </div>
 
-  <div class="container-fliud">
+
+    <!-- hero image moblie  -->
+    <div class="HomeHeroImg2Mob d-block d-sm-none">
+      <div class="d-flex justify-content-center">
+        <div class="aboutGreenBackgroundTab">
+          <h4 class="d-flex justify-content-center Habibi mobFontSize">
+            At In Season, we are most proud of all the varieties of plants we have in our nursery. Since 2016 we have
+            worked tirelessly to reach our dream of having a space in Stockton to teach people how to care for flora and
+            utilize the bounty they give us.
+          </h4>
+        </div>
+      </div>
+    </div>
+
+
+
+  <!-- Scenes desk -->
+  <div class="container-fliud d-none d-md-block d-xl-block">
     <div class="row">
       <div class="col OAC">
-        <p> Scenes From Our Garden </p>
+        <p class="Habibi"> Scenes From Our Garden </p>
       </div>
     </div>
   </div>
 
-  <div class="row GardenBG">
-    <br>
-    <div class="col-4">
-      <img src="/Assets/GardenOnions.jpg" alt="" class="GardenImagesLC">
-    </div>
-    <div class="col-1"></div>
-    <div class="col-7">
-      <img src="/Assets/GardenPumpkins.jpg" alt="" class="GardenImagesRC">
+
+
+  <!-- Our garden start -->
+  <div class="container-fliud d-block d-sm-none">
+    <div class="row">
+      <div class="col">
+        <div class="OACmob">
+        <p class="Habibi">Our Garden </p>
+      </div>
+      </div>
     </div>
   </div>
-  
+
+
+
+
+  <!-- Picktures desk top and tablet  -->
+  <div class="d-none d-md-block d-xl-block">
+    <div class="row GardenBG">
+      <br>
+      <div class="col-4">
+        <img src="/Assets/GardenOnions.jpg" alt="" class="GardenImagesLC">
+      </div>
+      <div class="col-1"></div>
+      <div class="col-7">
+        <img src="/Assets/GardenPumpkins.jpg" alt="" class="GardenImagesRC">
+      </div>
+    </div>
+
     <div class="row GardenBG">
       <br>
       <div class="col-4">
@@ -78,35 +202,156 @@
         <img src="/Assets/GardenPearlStrings.jpg" alt="" class="GardenImagesRC">
       </div>
     </div>
+
+    <div class="row GardenBG">
+      <br>
+      <div class="col-4">
+        <img src="/Assets/GardenSucculentsPups.jpg" alt="" class="GardenImagesLC">
+      </div>
+      <div class="col-1"></div>
+      <div class="col-4">
+        <img src="/Assets/GardenYellowFlowers.jpg" alt="" class="GardenImagesRC">
+      </div>
+      <div class="col-1"></div>
+    </div>
+
+    <div class="row GardenBG">
+      <br>
+      <div class="col-4">
+        <img src="/Assets/GardenMushroom.jpg" alt="" class="GardenImagesLC">
+      </div>
+      <div class="col-1"></div>
+      <div class="col-7">
+        <img src="/Assets/GardenHouseplants.jpg" alt="" class="GardenImagesRC">
+      </div>
+
+    </div>
+
+    <br><br>
   </div>
 
-  <div class="row GardenBG">
-    <br>
-    <div class="col-4">
-      <img src="/Assets/GardenSucculentsPups.jpg" alt="" class="GardenImagesLC">
+
+
+  <!-- Pictures mobile -->
+  <div class="d-block d-sm-none">
+    <div class="row">
+      <div class="col">
+        <div class="gardenImageMob1">
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="gardenImageMob2">
+
+        </div>
+      </div>
     </div>
-    <div class="col-1"></div>
-    <div class="col-4">
-      <img src="/Assets/GardenYellowFlowers.jpg" alt="" class="GardenImagesRC">
+    <div class="row">
+      <div class="col">
+        <div class="gardenImageMob3">
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="gardenImageMob4">
+
+        </div>
+      </div>
     </div>
-    <div class="col-1"></div>
-  </div>
+    <br><br>
   </div>
 
-  <div class="row GardenBG">
-    <br>
-    <div class="col-4">
-      <img src="/Assets/GardenMushroom.jpg" alt="" class="GardenImagesLC">
-    </div>
-    <div class="col-1"></div>
-    <div class="col-7">
-      <img src="/Assets/GardenHouseplants.jpg" alt="" class="GardenImagesRC">
-    </div>
-    
-  </div>
-  </div>
 
-  <div class="container-fluid GardenBG d-flex justify-content-center">
+
+  <!-- Desktop/tablet according start -->
+  <div class="d-none d-md-block d-xl-block">
+  <div class="container d-flex justify-content-center">
+    <div class="row accordionGarden">
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne">
+              Garden Planting Guide Page 1
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <img src="/Assets/GardenGuide1.png" alt="Garden Guide 1">
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              Garden Planting Guide Page 2
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <img src="/Assets/GardenGuide2.png" alt="Garden Guide 2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Mobile according start -->
+<div class="d-block d-sm-none">
+  <div class="container d-flex justify-content-center">
+    <div class="row accordionGarden">
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne">
+              Garden Planting Guide Page 1
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <img src="/Assets/GardenGuideMob1.png" alt="Garden Guide 1">
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              Garden Planting Guide Page 2
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <img src="/Assets/GardenGuideMob2.png" alt="Garden Guide 2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  <!-- <div class="container-fluid GardenBG d-flex justify-content-center">
 <div class="row" style="padding-top: 5vh;">
 
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -128,13 +373,155 @@
       </button>
   </div>
 </div>
-</div>
+</div> -->
 
-  
-  
+  <!-- Footer desktop start -->
+  <footer class="d-none d-lg-block d-xl-block">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h1 class="footNumber">(209)-949-2499</h1>
+        </div>
+        <div class="col-2">
+          <img style="width:182; height:172px" src="/Assets/InSeasonWhiteText.png" alt="Footer logo">
+        </div>
+        <div class="col">
+          <h1 class="footAdd">
+            215 E Alpine Avenue Stockton California 95204, United States
+          </h1>
+        </div>
+      </div>
+      <div class="row text-center">
+        <h1 class="follow">Follow Us</h1>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-1">
+          <a href="https://www.instagram.com/inseason.store/" target="_blank"><img class="insta"
+              src="/Assets/instalogo.png" alt="Instagram logo"></a>
+        </div>
+        <div class="col-1">
+          <a href="https://www.facebook.com/inseasonmarketandnursery/" target="_blank"><img class="facebookLogo"
+              src="/Assets/Facebook-logo.png" alt="facebook logo"></a>
+        </div>
+        <div class="col-1">
+          <a href="https://www.yelp.com/biz/in-season-market-and-nursery-stockton" target="_blank"><img class="yelp"
+              src="/Assets/Yelp-Logo.png" alt="yelp logo"></a>
+        </div>
+      </div>
+      <br><br>
+      <div class="text-center">
+        <div class="row">
+          <h3 class="footerCopy">In Season Market & Nursery</h3>
+        </div>
+        <br><br>
+        <div class="row">
+          <h6 class="footerCopy">Copyright © 2022 In Season Market & Nursery - All Rights Reserved.</h6>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer desk end -->
+
+  <!-- Footer Tablet start -->
+  <footer class="footerTab d-none d-md-block d-lg-none">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h1 class="footNumberTab">(209)-949-2499</h1>
+        </div>
+        <div class="col-2">
+          <img style="width:56; height:100px" src="/Assets/InSeasonWhiteText.png" alt="Footer logo">
+        </div>
+        <div class="col">
+          <h1 class="footAddTab">
+            215 E Alpine Avenue Stockton California 95204, United States
+          </h1>
+        </div>
+      </div>
+      <div class="row text-center">
+        <h1 class="follow">Follow Us</h1>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-1">
+          <a href="https://www.instagram.com/inseason.store/" target="_blank"><img class="instaTab"
+              src="/Assets/instalogo.png" alt="Instagram logo"></a>
+        </div>
+        <div class="col-1">
+          <a href="https://www.facebook.com/inseasonmarketandnursery/" target="_blank"><img class="facebookLogoTab"
+              src="/Assets/Facebook-logo.png" alt="facebook logo"></a>
+        </div>
+        <div class="col-1">
+          <a href="https://www.yelp.com/biz/in-season-market-and-nursery-stockton" target="_blank"><img class="yelpTab"
+              src="/Assets/Yelp-Logo.png" alt="yelp logo"></a>
+        </div>
+      </div>
+      <br><br>
+      <div class="text-center">
+        <div class="row">
+          <h3 class="footerCopy">In Season Market & Nursery</h3>
+        </div>
+        <br><br>
+        <div class="row">
+          <h6 class="footerCopy">Copyright © 2022 In Season Market & Nursery - All Rights Reserved.</h6>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <!-- Footer Mobile start -->
+  <footer class="footerMob d-block d-sm-none">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4">
+          <h1 class="footNumberMob">(209)-949-2499</h1>
+        </div>
+        <div class="col-4 d-flex justify-content-center">
+          <img style="width:60; height:60px" src="/Assets/InSeasonWhiteText.png" alt="Footer logo">
+        </div>
+        <div class="col-4">
+          <h1 class="footAddMob">
+            215 E Alpine Avenue Stockton California 95204, United States
+          </h1>
+        </div>
+      </div>
+      <div class="row text-center">
+        <h1 class="followMob">Follow Us</h1>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-1 margin">
+          <a href="https://www.instagram.com/inseason.store/" target="_blank"><img class="instaMob"
+              src="/Assets/instalogo.png" alt="Instagram logo"></a>
+        </div>
+        <div class="col-1 margin">
+          <a href="https://www.facebook.com/inseasonmarketandnursery/" target="_blank"><img class="facebookLogoMob"
+              src="/Assets/Facebook-logo.png" alt="facebook logo"></a>
+        </div>
+        <div class="col-1 margin">
+          <a href="https://www.yelp.com/biz/in-season-market-and-nursery-stockton" target="_blank"><img class="yelpMob"
+              src="/Assets/Yelp-Logo.png" alt="yelp logo"></a>
+        </div>
+      </div>
+      <br><br>
+      <div class="text-center">
+        <div class="row">
+          <h3 class="footerCopyMob1">In Season Market & Nursery</h3>
+        </div>
+        <br><br>
+        <div class="row">
+          <h6 class="footerCopyMob">Copyright © 2022 In Season Market & Nursery - All Rights Reserved.</h6>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
   <script src="../Scripts/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
 </body>
 

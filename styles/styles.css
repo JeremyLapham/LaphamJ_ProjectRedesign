@@ -602,147 +602,178 @@ footer {
     background-size: 100%;
     border-radius: 20px;
     background-repeat: no-repeat;
-    margin-left:5px;
-    margin-right:5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .aboutEricAndJulieMob {
     margin-top: 5rem;
     font-family: Habibi;
-    margin-left:5px;
-    margin-right:5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .paddingEricMob {
     padding-top: 1rem;
-    margin-left:5px;
-    margin-right:5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .paddingWordsMob {
     padding-top: 0.5rem;
     font-size: 15px;
-    margin-left:5px;
-    margin-right:5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
+
 .aboutInfo {
     margin-left: 10rem;
     margin-right: 10rem;
     margin-top: 5rem;
-    margin-bottom:5rem;
+    margin-bottom: 5rem;
     font-size: 25px;
     font-family: Habibi;
 }
+
 .aboutInfoTab {
-    margin:5rem;
+    margin: 5rem;
     font-size: 25px;
     font-family: Habibi;
 }
+
 .aboutInfoMob {
-    margin:2rem;
+    margin: 2rem;
     font-size: 15px;
     font-family: Habibi;
 }
+
 .aboutBeforeLot {
     background-image: url(../Assets/AboutBeforeCrops.png);
     height: 350px;
-    background-size:100%;
+    background-size: 100%;
     border-radius: 20px
 }
+
 .aboutBeforeLot2 {
     background-image: url(../Assets/AboutUsBeforeLot.jpg);
     height: 350px;
-    background-size:100%;
+    background-size: 100%;
     border-radius: 20px
 }
+
 .aboutAfterLot {
     background-image: url(../Assets/AboutAfterLot.jpg);
     height: 350px;
-    background-size:100%;
+    background-size: 100%;
     border-radius: 20px
 }
+
 .aboutAfterLot2 {
     background-image: url(../Assets/AboutAfterCrops.jpg);
     height: 350px;
-    background-size:100%;
+    background-size: 100%;
     border-radius: 20px
 }
-.hero-image{
+
+.hero-image {
     background-image: url(../Assets/ShopHeroImage.png);
     height: 651px;
-    background-size:100%;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
-.OAC{
+
+.OAC {
     background-color: #793D19;
     font-size: 50px;
     text-align: center;
     color: white;
 }
 
-.nav-item {
+/* .navbar{
+    background-color: #793D19;
+    position:fixed;
+    top:0;
+    width:100vw;
+} */
+/* .nav-item {
     font-size: 50px;
-}
-.navbar a {
+} */
+
+/* .navbar a {
     color: white;
     margin-left: 50px;
     margin-right: 85px;
-}
+} */
 
 .HomeHeroImg2 {
+    margin-top:6rem;
     background-image: url(../Assets/GardenHeroPossible.jpg);
     height: 651px;
-    background-size:100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.HomeHeroImg2Tab {
+    margin-top:5rem;
+    background-image: url(../Assets/GardenHeroPossible.jpg);
+    height: 651px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.HomeHeroImg2Mob {
+    margin-top:5rem;
+    background-image: url(../Assets/GardenHeroPossible.jpg);
+    height: 375px;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
-.GardenBar{
+
+.GardenBar {
     color: #793D19;
     background-color: #793D19;
 }
 
-.GardenBG{
+.GardenBG {
     background-color: #85CC6D;
-    
+
 }
 
-.objectCover{
-    object-fit:cover
-}
-
-.GardenImagesLC{
-    padding-top:  5vh;
+.GardenImagesLC {
+    padding-top: 5vh;
     padding-left: 5vw;
     width: 50vw;
     height: 60vh;
-    object-fit:cover;
+    object-fit: cover;
 }
 
-.GardenImagesRC{
-    padding-top:  5vh;
+.GardenImagesRC {
+    padding-top: 5vh;
     padding-left: 10vw;
     width: 52.5vw;
     height: 60vh;
-    object-fit:cover;
+    object-fit: cover;
 
 }
 
 .AC {
-   padding-top: 3rem;
-   padding-left: 7rem; 
-   background-color: #85CC6D;
+    padding-top: 3rem;
+    padding-left: 7rem;
+    background-color: #85CC6D;
 }
-.OP{
+
+.OP {
     background-color: #397624;
 }
-.FD{
+
+.FD {
     background-color: #517F35;
 }
-.FL{
+
+.FL {
     width: 110px;
 }
 
-.carouselGardenImage{
+.carouselGardenImage {
     width: 50vw;
     height: 100vh;
 }
@@ -750,111 +781,127 @@ footer {
 .aboutBeforeLotTab {
     background-image: url(../Assets/AboutBeforeCrops.png);
     height: 300px;
-    background-size:100%;
+    background-size: 100%;
     border-radius: 20px
 }
+
 .aboutBeforeLotTab2 {
     background-image: url(../Assets/AboutUsBeforeLot.jpg);
     height: 300px;
-    background-size:100%;
+    background-size: 100%;
     border-radius: 20px
 }
+
 .aboutAfterLotTab {
     background-image: url(../Assets/AboutAfterLot.jpg);
     height: 300px;
-    background-size:100%;
+    background-size: 100%;
     border-radius: 20px
 }
+
 .aboutAfterLotTab2 {
     background-image: url(../Assets/AboutAfterCrops.jpg);
     height: 300px;
-    background-size:100%;
+    background-size: 100%;
     border-radius: 20px
 }
+
 .aboutBeforeLotMob {
     background-image: url(../Assets/AboutBeforeCrops.png);
     height: 165px;
-    background-size:100%;
+    background-size: 100%;
     border-radius: 20px;
     background-repeat: no-repeat;
 }
+
 .aboutBeforeLotMob2 {
     background-image: url(../Assets/AboutUsBeforeLot.jpg);
     height: 165px;
-    background-size:100%;
+    background-size: 100%;
     border-radius: 20px;
     background-repeat: no-repeat;
 }
+
 .aboutAfterLotMob {
     background-image: url(../Assets/AboutAfterLot.jpg);
     height: 165px;
-    background-size:100%;
+    background-size: 100%;
     border-radius: 20px;
     background-repeat: no-repeat;
 }
+
 .aboutAfterLotMob2 {
     background-image: url(../Assets/AboutAfterCrops.jpg);
     height: 165px;
-    background-size:100%;
+    background-size: 100%;
     border-radius: 20px;
     background-repeat: no-repeat;
-.AC {
-    padding-top: 2rem;
-    padding-left: 7rem; 
-    background-color: #85CC6D;
- }
- .FD{
-     background-color: #517F35;
- }
- .FL{
-     width: 110px;
- }
- .AI{
-     background-color: #85CC6D;
-     padding-top: 2rem; 
- }
- .OA{
-     padding-top: 2rem;
- }
-.BO{
-    background-color:#517F35;
-    height: 515px;
-}
-.footNumber {
-    margin-top:6rem;
-    display: flex;
-    justify-content: end;
-    font-size: 40px;
-    font-family: Habibi;
-    color:white;
-}
-.footAdd {
-    margin-top:2rem;
-    font-size: 40px;
-    font-family: Habibi;
-    color:white;
-    padding-right:7rem;
-}
-.insta {
-    width:64px;
-    height:64px;
-}
-.facebookLogo {
-    width:95px;
-    height:60px;
-}
-.yelp {
-    width:120px;
-    height:60px;
-}
-.follow {
-    color:white;
-    font-family: Habibi;
-}
-.footerCopy {
-    color:white
 }
 
-.tabWordNav {
-    font-size: 25px;
+.accordionGarden {
+    width: 755px;
+}
+
+.aboutGreenBackgroundTab {
+    margin-top: 10rem;
+    background-color: #85CC6D;
+    height: 140px;
+    width: 550px;
+    background-position: center center;
+}
+.tabFontSize {
+    padding-left: 1rem;
+    font-size: 22px;
+}
+.mobFontSize {
+    padding-left: 1rem;
+    font-size: 17px;
+}
+.OACmob {
+    background-color: #793D19;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.gardenImageMob1 {
+    margin-top:2rem;
+    margin-left:1rem;
+    background-image: url('/Assets/GardenOnions.jpg');
+    background-size:100%;
+    height:120px;
+    border-radius:20px;
+}
+.gardenImageMob2 {
+    margin-top:2rem;
+    margin-right:1rem;
+    background-image: url('/Assets/GardenPumpkins.jpg');
+    background-size:100%;
+    height:120px;
+    border-radius:20px;
+}
+.gardenImageMob3 {
+    margin-top:1rem;
+    margin-left:1rem;
+    background-image: url('/Assets/GardenSprouting.jpg');
+    background-size:100%;
+    height:120px;
+    border-radius:20px;
+}
+.gardenImageMob4 {
+    margin-top:1rem;
+    margin-right:1rem;
+    background-image: url('/Assets/GardenPearlStrings.jpg');
+    background-size:100%;
+    height:120px;
+    border-radius:20px;
+}
+
+.gardenAccordMob1 {
+    background-image:url('/Assets/GardenGuide1.png');
+    background-size: 100%;
+}
+
+.gardenAccordMob2 {
+    background-image:url('/Assets/GardenGuide2.png');
+    background-size: 100%;
 }
