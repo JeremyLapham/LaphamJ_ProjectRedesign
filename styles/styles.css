@@ -670,6 +670,85 @@ footer {
     background-size:100%;
     border-radius: 20px
 }
+.hero-image{
+    background-image: url(../Assets/ShopHeroImage.png);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.OAC{
+    background-color: #793D19;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.navbar{
+    background-color: #793D19;
+    position:fixed;
+    top:0;
+    width:100vw;
+}
+.nav-item {
+    font-size: 50px;
+}
+.navbar a {
+    color: white;
+    margin-left: 50px;
+    margin-right: 85px;
+}
+
+.HomeHeroImg2 {
+    background-image: url(../Assets/GardenHeroPossible.jpg);
+    height: 651px;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.GardenBar{
+    color: #793D19;
+    background-color: #793D19;
+}
+
+.GardenBG{
+    background-color: #85CC6D;
+    
+}
+
+.GardenImagesLC{
+    padding-top:  5vh;
+    padding-left: 5vw;
+    width: 50vw;
+    height: 60vh;
+    object-fit:cover;
+}
+
+.GardenImagesRC{
+    padding-top:  5vh;
+    padding-left: 10vw;
+    width: 52.5vw;
+    height: 60vh;
+    object-fit:cover;
+
+}
+
+.AC {
+   padding-top: 3rem;
+   padding-left: 7rem; 
+   background-color: #85CC6D;
+}
+.OP{
+    background-color: #397624;
+}
+.FD{
+    background-color: #517F35;
+}
+.FL{
+    width: 110px;
+}
+
+.carouselGardenImage{
+    width: 50vw;
+    height: 100vh;
+}
 
 .aboutBeforeLotTab {
     background-image: url(../Assets/AboutBeforeCrops.png);
