@@ -18,19 +18,7 @@
     width: 100%
 }
 
-.navbar a {
-    color: white;
-}
 
-.navbar{
-    background-color: #793D19;
-    position:fixed;
-    top:0;
-    width:100%
-}
-.navbar a{
-    color:white;
-}
 .navBarWords {
     margin-left: 50px;
     margin-right: 85px;
@@ -681,7 +669,8 @@ footer {
 }
 .hero-image{
     background-image: url(../Assets/ShopHeroImage.png);
-    height: 500px;
+    height: 651px;
+    background-size:100%;
     background-repeat: no-repeat;
 }
 .OAC{
@@ -690,12 +679,7 @@ footer {
     text-align: center;
     color: white;
 }
-.navbar{
-    background-color: #793D19;
-    position:fixed;
-    top:0;
-    width:100vw;
-}
+
 .nav-item {
     font-size: 50px;
 }
@@ -720,6 +704,10 @@ footer {
 .GardenBG{
     background-color: #85CC6D;
     
+}
+
+.objectCover{
+    object-fit:cover
 }
 
 .GardenImagesLC{
