@@ -680,7 +680,8 @@ footer {
 
 .hero-image {
     background-image: url(../Assets/ShopHeroImage.png);
-    height: 500px;
+    height: 651px;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
