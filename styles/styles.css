@@ -561,6 +561,10 @@ footer {
     font-size: 15px;
 }
 
+.mobFontSizeSm {
+    padding-left: 6px;
+    font-size: 15px;
+}
 .aboutPicture {
     background-image: url(../Assets/NoHand.png);
     height: 600px;
