@@ -28,6 +28,12 @@
     font-size: 50px;
 }
 
+.navBarWords {
+    margin-left: 50px;
+    margin-right: 85px;
+    font-size: 50px;
+}
+
 .HomeHeroImg1 {
     margin-top: 114px;
     background-image: url(../Assets/HomeHeroImage.jpg);
@@ -406,6 +412,12 @@ footer {
 .instaTab {
     width: 40px;
     height: 40px;
+}
+
+.instaNav {
+    width: 40px;
+    height: 40px;
+    align-self: center;
 }
 
 .instaMob {
